@@ -1,0 +1,5 @@
+# Copy this to terraform.tfvars (DO NOT COMMIT the real file)
+allowed_ssh_cidr = "YOUR.PUBLIC.IP.ADDR/32"
+key_name         = "your-ec2-keypair-name"
+db_username      = "streamline_user"
+db_password      = "ChangeMe_Strong#123"
